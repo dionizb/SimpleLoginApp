@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B32BB811270E5F5700C27C07 /* SimpleLoginAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32BB810270E5F5700C27C07 /* SimpleLoginAppApp.swift */; };
-		B32BB813270E5F5700C27C07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32BB812270E5F5700C27C07 /* ContentView.swift */; };
+		B32BB813270E5F5700C27C07 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32BB812270E5F5700C27C07 /* LoginView.swift */; };
 		B32BB815270E5F5A00C27C07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B32BB814270E5F5A00C27C07 /* Assets.xcassets */; };
 		B32BB818270E5F5A00C27C07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B32BB817270E5F5A00C27C07 /* Preview Assets.xcassets */; };
 		B32BB822270E5F5B00C27C07 /* SimpleLoginAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32BB821270E5F5B00C27C07 /* SimpleLoginAppTests.swift */; };
 		B32BB82C270E5F5B00C27C07 /* SimpleLoginAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32BB82B270E5F5B00C27C07 /* SimpleLoginAppUITests.swift */; };
 		B32BB82E270E5F5B00C27C07 /* SimpleLoginAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32BB82D270E5F5B00C27C07 /* SimpleLoginAppUITestsLaunchTests.swift */; };
+		B32BB83D270E622100C27C07 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32BB83C270E622100C27C07 /* LoginViewModel.swift */; };
+		B32BB840270E628C00C27C07 /* SignInWithAppleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32BB83F270E628C00C27C07 /* SignInWithAppleView.swift */; };
+		B32BB843270FAE7000C27C07 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32BB842270FAE7000C27C07 /* HomeView.swift */; };
+		B32BB846270FAEB700C27C07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32BB845270FAEB700C27C07 /* AppDelegate.swift */; };
+		B32BB84A270FAFAF00C27C07 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32BB849270FAFAF00C27C07 /* UserDefaults.swift */; };
+		B32BB84E270FB7BD00C27C07 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32BB84D270FB7BD00C27C07 /* Coordinator.swift */; };
+		B38354E1270FBBB6002E52B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38354E0270FBBB6002E52B7 /* SceneDelegate.swift */; };
+		B38354E52710C94B002E52B7 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38354E42710C94B002E52B7 /* NetworkingManager.swift */; };
+		B38354E72710CA6C002E52B7 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38354E62710CA6C002E52B7 /* Error.swift */; };
+		B38354E92710CBCB002E52B7 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38354E82710CBCB002E52B7 /* BaseRequest.swift */; };
+		B38354EB2710D174002E52B7 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38354EA2710D174002E52B7 /* Response.swift */; };
+		B38354ED2710DFB1002E52B7 /* LoginViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38354EC2710DFB1002E52B7 /* LoginViewModelTests.swift */; };
+		B38354F02710E28B002E52B7 /* UserDefaultingMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38354EF2710E28B002E52B7 /* UserDefaultingMock.swift */; };
+		B38354F32710E960002E52B7 /* Biometrics.m in Sources */ = {isa = PBXBuildFile; fileRef = B38354F22710E960002E52B7 /* Biometrics.m */; };
+		B38354F62710EA4F002E52B7 /* BiometricsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38354F52710EA4F002E52B7 /* BiometricsUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +49,7 @@
 
 /* Begin PBXFileReference section */
 		B32BB80D270E5F5700C27C07 /* SimpleLoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleLoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B32BB810270E5F5700C27C07 /* SimpleLoginAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleLoginAppApp.swift; sourceTree = "<group>"; };
-		B32BB812270E5F5700C27C07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B32BB812270E5F5700C27C07 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		B32BB814270E5F5A00C27C07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B32BB817270E5F5A00C27C07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B32BB81D270E5F5B00C27C07 /* SimpleLoginAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleLoginAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +57,25 @@
 		B32BB827270E5F5B00C27C07 /* SimpleLoginAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleLoginAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B32BB82B270E5F5B00C27C07 /* SimpleLoginAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleLoginAppUITests.swift; sourceTree = "<group>"; };
 		B32BB82D270E5F5B00C27C07 /* SimpleLoginAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleLoginAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B32BB83C270E622100C27C07 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		B32BB83F270E628C00C27C07 /* SignInWithAppleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleView.swift; sourceTree = "<group>"; };
+		B32BB842270FAE7000C27C07 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B32BB845270FAEB700C27C07 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B32BB847270FAED500C27C07 /* SimpleLoginApp.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = SimpleLoginApp.entitlements; sourceTree = "<group>"; };
+		B32BB849270FAFAF00C27C07 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		B32BB84D270FB7BD00C27C07 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		B38354E0270FBBB6002E52B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B38354E2270FBDCC002E52B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B38354E42710C94B002E52B7 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		B38354E62710CA6C002E52B7 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		B38354E82710CBCB002E52B7 /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		B38354EA2710D174002E52B7 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		B38354EC2710DFB1002E52B7 /* LoginViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTests.swift; sourceTree = "<group>"; };
+		B38354EF2710E28B002E52B7 /* UserDefaultingMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultingMock.swift; sourceTree = "<group>"; };
+		B38354F12710E95F002E52B7 /* SimpleLoginAppUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleLoginAppUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		B38354F22710E960002E52B7 /* Biometrics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Biometrics.m; sourceTree = "<group>"; };
+		B38354F42710E9A8002E52B7 /* Biometrics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Biometrics.h; sourceTree = "<group>"; };
+		B38354F52710EA4F002E52B7 /* BiometricsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricsUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +126,13 @@
 		B32BB80F270E5F5700C27C07 /* SimpleLoginApp */ = {
 			isa = PBXGroup;
 			children = (
-				B32BB810270E5F5700C27C07 /* SimpleLoginAppApp.swift */,
-				B32BB812270E5F5700C27C07 /* ContentView.swift */,
-				B32BB814270E5F5A00C27C07 /* Assets.xcassets */,
-				B32BB816270E5F5A00C27C07 /* Preview Content */,
+				B38354E2270FBDCC002E52B7 /* Info.plist */,
+				B32BB83A270E618600C27C07 /* App */,
+				B32BB84C270FB7A300C27C07 /* Coordinator */,
+				B32BB841270FAE3400C27C07 /* Home */,
+				B32BB83B270E61F100C27C07 /* Login */,
+				B38354E32710C932002E52B7 /* Networking */,
+				B32BB848270FAF7E00C27C07 /* Storage */,
 			);
 			path = SimpleLoginApp;
 			sourceTree = "<group>";
@@ -113,7 +148,9 @@
 		B32BB820270E5F5B00C27C07 /* SimpleLoginAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				B38354EE2710E277002E52B7 /* Mocks */,
 				B32BB821270E5F5B00C27C07 /* SimpleLoginAppTests.swift */,
+				B38354EC2710DFB1002E52B7 /* LoginViewModelTests.swift */,
 			);
 			path = SimpleLoginAppTests;
 			sourceTree = "<group>";
@@ -123,8 +160,77 @@
 			children = (
 				B32BB82B270E5F5B00C27C07 /* SimpleLoginAppUITests.swift */,
 				B32BB82D270E5F5B00C27C07 /* SimpleLoginAppUITestsLaunchTests.swift */,
+				B38354F22710E960002E52B7 /* Biometrics.m */,
+				B38354F42710E9A8002E52B7 /* Biometrics.h */,
+				B38354F12710E95F002E52B7 /* SimpleLoginAppUITests-Bridging-Header.h */,
+				B38354F52710EA4F002E52B7 /* BiometricsUITests.swift */,
 			);
 			path = SimpleLoginAppUITests;
+			sourceTree = "<group>";
+		};
+		B32BB83A270E618600C27C07 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B32BB816270E5F5A00C27C07 /* Preview Content */,
+				B32BB814270E5F5A00C27C07 /* Assets.xcassets */,
+				B32BB847270FAED500C27C07 /* SimpleLoginApp.entitlements */,
+				B32BB845270FAEB700C27C07 /* AppDelegate.swift */,
+				B38354E0270FBBB6002E52B7 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B32BB83B270E61F100C27C07 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B32BB812270E5F5700C27C07 /* LoginView.swift */,
+				B32BB83C270E622100C27C07 /* LoginViewModel.swift */,
+				B32BB83F270E628C00C27C07 /* SignInWithAppleView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B32BB841270FAE3400C27C07 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B32BB842270FAE7000C27C07 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B32BB848270FAF7E00C27C07 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				B32BB849270FAFAF00C27C07 /* UserDefaults.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		B32BB84C270FB7A300C27C07 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				B32BB84D270FB7BD00C27C07 /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		B38354E32710C932002E52B7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B38354E42710C94B002E52B7 /* NetworkingManager.swift */,
+				B38354E62710CA6C002E52B7 /* Error.swift */,
+				B38354E82710CBCB002E52B7 /* BaseRequest.swift */,
+				B38354EA2710D174002E52B7 /* Response.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B38354EE2710E277002E52B7 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				B38354EF2710E28B002E52B7 /* UserDefaultingMock.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +308,7 @@
 					};
 					B32BB826270E5F5B00C27C07 = {
 						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
 						TestTargetID = B32BB80C270E5F5700C27C07;
 					};
 				};
@@ -257,8 +364,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B32BB813270E5F5700C27C07 /* ContentView.swift in Sources */,
-				B32BB811270E5F5700C27C07 /* SimpleLoginAppApp.swift in Sources */,
+				B32BB813270E5F5700C27C07 /* LoginView.swift in Sources */,
+				B32BB840270E628C00C27C07 /* SignInWithAppleView.swift in Sources */,
+				B32BB84A270FAFAF00C27C07 /* UserDefaults.swift in Sources */,
+				B32BB843270FAE7000C27C07 /* HomeView.swift in Sources */,
+				B38354EB2710D174002E52B7 /* Response.swift in Sources */,
+				B32BB83D270E622100C27C07 /* LoginViewModel.swift in Sources */,
+				B32BB846270FAEB700C27C07 /* AppDelegate.swift in Sources */,
+				B38354E92710CBCB002E52B7 /* BaseRequest.swift in Sources */,
+				B38354E52710C94B002E52B7 /* NetworkingManager.swift in Sources */,
+				B32BB84E270FB7BD00C27C07 /* Coordinator.swift in Sources */,
+				B38354E72710CA6C002E52B7 /* Error.swift in Sources */,
+				B38354E1270FBBB6002E52B7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +383,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B38354F02710E28B002E52B7 /* UserDefaultingMock.swift in Sources */,
+				B38354ED2710DFB1002E52B7 /* LoginViewModelTests.swift in Sources */,
 				B32BB822270E5F5B00C27C07 /* SimpleLoginAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,7 +393,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B38354F62710EA4F002E52B7 /* BiometricsUITests.swift in Sources */,
 				B32BB82E270E5F5B00C27C07 /* SimpleLoginAppUITestsLaunchTests.swift in Sources */,
+				B38354F32710E960002E52B7 /* Biometrics.m in Sources */,
 				B32BB82C270E5F5B00C27C07 /* SimpleLoginAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,12 +537,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SimpleLoginApp/App/SimpleLoginApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SimpleLoginApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleLoginApp/App/Preview Content\"";
+				DEVELOPMENT_TEAM = F6B2R4R6UT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = SimpleLoginApp/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "To make your login easier";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -445,12 +569,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SimpleLoginApp/App/SimpleLoginApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SimpleLoginApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleLoginApp/App/Preview Content\"";
+				DEVELOPMENT_TEAM = F6B2R4R6UT;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = SimpleLoginApp/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "To make your login easier";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -521,6 +649,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -533,6 +662,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Dioniz.SimpleLoginAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "SimpleLoginAppUITests/SimpleLoginAppUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SimpleLoginApp;
@@ -543,6 +674,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -555,6 +687,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Dioniz.SimpleLoginAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "SimpleLoginAppUITests/SimpleLoginAppUITests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SimpleLoginApp;
